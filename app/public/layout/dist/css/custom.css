@@ -1,0 +1,187 @@
+.dataTable a.btn{
+	width: 40px;
+	height: 34px;
+	display: block;
+	margin: 0 5px;
+	float: left;
+}
+
+.dataTables_wrapper .col-sm-6 #contacts_filter, .dataTables_wrapper .col-sm-6 #offers_filter{
+	float: right;
+
+}
+
+table.dataTable>tbody>tr>td{
+	vertical-align: middle;
+}
+
+.box-header.fixTop{
+	margin-top: 6px;
+}
+
+.box-header .callout{
+	margin-bottom: 0;
+}
+
+.offer_container{
+	border: 1px solid #eeeeee;
+	transition: 0.2s ease;
+	padding: 20px;
+}
+
+.drop-hover{
+	border: 1px solid #f39c12 !important;
+}
+
+.offer_drag{
+	list-style: none;
+	padding-left:0;
+}
+
+.offer_drag li{
+	display: block;
+	width: 100%;
+	background-color: #00c0ef;
+	list-style: none;
+	border-radius: 6px;
+	padding: 4px 20px;
+	color: #ffffff;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+#current_lines, .current_lines{
+	list-style: none;
+	padding-left:0;
+}
+
+#current_lines li, .current_lines li{
+	display: block;
+	width: 100%;
+	background-color: #00a65a;
+	list-style: none;
+	border-radius: 6px;
+	padding: 4px 10px 4px 20px;
+	color: #ffffff;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+#plan_lines, .plan_lines{
+	list-style: none;
+	padding-left:0;
+}
+
+#plan_lines li, .plan_lines li{
+	display: block;
+	width: 100%;
+	background-color: #00c0ef;
+	list-style: none;
+	border-radius: 6px;
+	padding: 4px 10px 4px 20px;
+	color: #ffffff;
+	position: relative;
+	z-index: 999;
+	margin-bottom: 5px;
+	cursor: pointer;
+
+}
+
+.removeBtn,.editBtn{
+	margin-top: 3px;
+	cursor: pointer;
+	color: #ffffff;
+	transition: 0.2s ease;
+}
+
+.editBtn{
+	margin-right: 6px;
+}
+
+.removeBtn:hover{
+	color: #d73925;
+}
+
+.editBtn:hover{
+	color: #FFD797;
+}
+
+#current_lines.waiting li{
+	background-color: #BBBBBB !important;
+}
+
+.userTable img{
+	max-width: 45px;
+}
+
+.pull-alittleright{
+	margin-right: 10px;
+}
+
+.modal-body b{
+	display: inline-block;
+	width: 70px;
+}
+
+.noresize{
+	resize: none;
+}
+
+.descTxt{
+	height: 100px !important;
+}
+
+h5.box-title{
+	    margin-left: 10px;
+    margin-top: 20px;
+}
+
+/* user */
+
+.user_item{
+	float:left;
+	width: 100%;
+}
+
+.user_item .user_name{
+	display: inline-block;
+	width: 100%;
+}
+
+.user_item .aval_till, .user_item .arrow-down{
+	float:right;
+}
+
+.user_item .arrow-down{
+	margin-left: 10px;
+}
+
+.line_name{
+	width: 30%;
+	display: inline-block;
+	overflow: hidden;
+    height: 18px;
+}
+
+.line_customer{
+    width: 20%;
+    display: inline-block;
+    overflow: hidden;
+    height: 18px;
+}
+
+.processbar{
+	width: 14%;
+	display: inline-block;	
+	border: 1px solid #ffffff;
+	height: 14px;
+}
+
+.inner_process{
+	display: inline-block;
+	
+}
+
+.rightzoom{
+	float:right;
+}

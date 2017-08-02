@@ -1,0 +1,28 @@
+version: "2"
+services:
+  nginx:
+      build:
+          context: ./nginx
+      ports:
+          - "80:80"
+      volumes:
+          - ./app:/var/app
+  fpm:
+      build:
+          context: ./fpm
+      volumes:
+          - ./app:/var/app
+      expose:
+          - "9000"
+      environment:
+          - "DB_HOST=db"
+          - "DB_DATABASE=wiped"
+  db:
+      image: mysql:5.7
+      ports:
+          - 3306:3306
+      environment:
+          - MYSQL_ROOT_PASSWORD=plM11q&1plM11q&1
+          - MYSQL_DATABASE=wiped
+      volumes:
+          - ./database:/var/lib/mysql
